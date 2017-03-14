@@ -1,16 +1,10 @@
 # Xgboost
 
-## Core Data Structure
+## 1. 模型理论推导分析
 
-xgboost.DMtrix(data, label=None, feature_names=None, feature_types=None)
+[理论推导分析](XGBoost.ipynb)
 
-- feature_names: get feature names (column labels)
-- feature_types: get feature types(column types)
-- get_float_info(): get float property from the DMatrix
-- get_label(): get the label of the DMatrix
-- num_col(): get the number of columns (features) in the DMatrix
-- num_row(): get the number of rows in the DMatrix.
+[陈天奇的论文——XGBoost: A Scalable Tree Boosting System](xgboost_thesis.pdf)
 
-## Learning API
+[PPT：Introduction to Boosted Trees](BoostedTree_slides_ctq.pdf)
 
-xgboost.train(params, dtrain, num_boost_round=10, evals=(). obj=None)
